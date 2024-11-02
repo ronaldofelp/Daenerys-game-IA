@@ -30,18 +30,20 @@ No início do jogo, uma primeira geração de 100 indivíduos é criada para ini
 
 ## Instalação
 
+1. Clone o repositório.
 
-1. Clone o repositório
-<br>
-2. No terminal,vá até o local onde o repositório foi clonado.
-<br>
+2. No terminal, vá até o local onde o repositório foi clonado.
+
 3. Para instalar as dependências, crie e ative um ambiente virtual:
+
     ```bash
-    python -m venv venv #Cria o ambiente virtual
-    venv\Scripts\activate #Ativa o ambiente
-    pip install -r requirements.txt #instala os requerimentos
+    python -m venv venv  # Cria o ambiente virtual
+    venv\Scripts\activate  # Ativa o ambiente
+    pip install -r requirements.txt  # Instala os requerimentos
     ```
+
 4. Rode o jogo com o comando a seguir:
+
     ```bash
     python main.py
     ```
